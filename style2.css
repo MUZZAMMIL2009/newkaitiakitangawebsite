@@ -1,0 +1,107 @@
+/*foundation styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.actioninfos {
+    text-align: center;
+    margin-left: 100px;
+    width: 900px;
+    margin-bottom: 100px;
+    background-color:#a5ffd6;
+    padding: 30px;
+    border-radius: 20px;
+    color: #003f2d;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin-right: 400px;
+}
+.actioninfos h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color:#003f2d
+}
+.poll-section {
+    text-align: center;
+    margin: 30px 0;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 100px;
+    color:#003f2d;
+    background-color: #a5ffd6;
+    border-radius:20px;
+    padding: 20px;
+    margin-left: 100px;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  background-color: #f4fdf7;
+  color: #222;
+  line-height: 1.6;
+  background-color: antiquewhite;
+}
+.topofaction {
+  display: flex;
+}
+.commander {
+  font-size: 2.5rem;
+  color: #3d2f22;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  width:900px;
+  margin-left: 100px; 
+  padding: 20px;
+}
+/* Navbar */
+.navbar {
+  background-color: #003f2d;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar .Logo {
+  height: 100px;
+  width:100px;
+  margin-right: auto;
+}
+.navbar .Logo:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.header-button {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: color 0.3s ;
+  float: left;
+}
+
+.header-button:hover {
+  color: #a5ffd6;
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+footer {
+  background-color: #003f2d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  width: 100%;
+}
+
+footer a {
+  color: #a5ffd6;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
